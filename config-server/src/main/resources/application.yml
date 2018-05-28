@@ -1,0 +1,21 @@
+server:
+  port: 8891
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/jun89838686/spring-cloud-demo/
+          basedir: D:/IT/tools/eclipse-java/workspace
+          search-paths: configs
+          username: jun89838686
+          password: qw89838686
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost/eureka/
