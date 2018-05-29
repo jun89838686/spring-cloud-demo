@@ -14,6 +14,7 @@ spring:
           search-paths: configs
           username: jun89838686
           password: qw89838686
+          passphrase: qw89838686
 
 eureka:
   client:
